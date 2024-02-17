@@ -1,0 +1,183 @@
+/*-----------------------------------------SITE-----------------------------------------*/
+
+* {
+  font-family: "Nunito";
+}
+
+/*-----------------------------------------NAV-----------------------------------------*/
+
+h4 {
+  color: #477618;
+}
+
+h2 {
+  color: #477618;
+}
+h5 {
+  font-weight: 700;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #477618;
+}
+
+.nav-search {
+  border-radius: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-container {
+  border-bottom: 0.5px solid black;
+}
+
+.h1-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header-button {
+  border-radius: 500px;
+  background-color: #477618;
+  border: none;
+}
+
+#footer {
+  background-image: url(/images/vintage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.footer-icon {
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  scale: 1.15;
+}
+
+.text-body-secondary:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.service-button {
+  background-color: #477618;
+  color: white;
+  justify-self: flex-end;
+}
+
+.text-body-secondary {
+  color: white;
+}
+
+.footer-text {
+  color: white;
+}
+
+/*-----------------------------------------MEDIA QUERIES-----------------------------------------*/
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+  .nav-svg {
+    display: none;
+  }
+
+  .nav-link-container {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .header-background {
+    height: auto;
+  }
+
+  .nav-search {
+    margin-top: 10px;
+  }
+
+  .about-img {
+    width: auto;
+    height: 225px;
+  }
+
+  .about-card {
+    min-height: auto;
+    margin-bottom: 24px;
+  }
+
+  iframe {
+    width: auto;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-svg {
+    display: none;
+  }
+
+  .nav-link-container {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .header-background {
+    height: 100vh;
+  }
+
+  .nav-search {
+    margin-top: 10px;
+  }
+
+  .about-img {
+    width: auto;
+    height: 225px;
+  }
+
+  .about-card {
+    min-height: auto;
+    margin-bottom: 24px;
+  }
+
+  iframe {
+    width: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-svg {
+    height: 32px;
+  }
+
+  .nav-search {
+    margin-top: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra large devices go here */
+}

@@ -1,0 +1,218 @@
+/*-----------------------------------------SITE-----------------------------------------*/
+
+* {
+  font-family: "Nunito";
+  color: white;
+}
+
+/*-----------------------------------------NAV-----------------------------------------*/
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  color: #477618;
+}
+
+.nav-search {
+  border-radius: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-----------------------------------------HEADER-----------------------------------------*/
+
+.header-background {
+  background-image: url(/images/home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.nav-container {
+  border-bottom: 0.5px solid white;
+}
+
+.h1-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header-button {
+  border-radius: 500px;
+  background-color: #477618;
+  border: none;
+}
+
+/*-----------------------------------------ABOUT-----------------------------------------*/
+
+.header-h2 {
+  color: #477618;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-p {
+  color: #477618;
+  text-align: center;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-title {
+  color: #202120;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  color: #202120;
+}
+
+.about-card {
+  min-height: 600px;
+}
+
+.about-img {
+  width: 348px;
+  height: 225px;
+}
+
+/*-----------------------------------------CONTACT-----------------------------------------*/
+
+#contact {
+  background-image: url(/images/geo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-label {
+  color: #202120;
+  font-weight: 600;
+}
+
+.form-button {
+  background-color: #477618;
+  border-radius: 500px;
+}
+
+/*-----------------------------------------FOOTER-----------------------------------------*/
+
+#footer {
+  background-image: url(/images/vintage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.footer-icon {
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  scale: 1.15;
+}
+
+.text-body-secondary:hover {
+  color: white;
+  font-weight: 600;
+}
+
+/*-----------------------------------------MEDIA QUERIES-----------------------------------------*/
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+  .nav-svg {
+    display: none;
+  }
+
+  .nav-link-container {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .header-background {
+    height: auto;
+  }
+
+  .nav-search {
+    margin-top: 10px;
+  }
+
+  .about-img {
+    width: auto;
+    height: 225px;
+  }
+
+  .about-card {
+    min-height: auto;
+    margin-bottom: 24px;
+  }
+
+  iframe {
+    width: auto;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-svg {
+    display: none;
+  }
+
+  .nav-link-container {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .header-background {
+    height: 100vh;
+  }
+
+  .nav-search {
+    margin-top: 10px;
+  }
+
+  .about-img {
+    width: auto;
+    height: 225px;
+  }
+
+  .about-card {
+    min-height: auto;
+    margin-bottom: 24px;
+  }
+
+  iframe {
+    width: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-svg {
+    height: 32px;
+  }
+
+  .nav-search {
+    margin-top: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra large devices go here */
+}
