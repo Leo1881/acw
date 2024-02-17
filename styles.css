@@ -25,7 +25,7 @@
 /*-----------------------------------------HEADER-----------------------------------------*/
 
 .header-background {
-  background-image: url(/images/home.jpg);
+  background-image: url(images/home.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,7 +85,7 @@
 /*-----------------------------------------CONTACT-----------------------------------------*/
 
 #contact {
-  background-image: url(/images/geo.jpg);
+  background-image: url(images/geo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -104,7 +104,7 @@
 /*-----------------------------------------FOOTER-----------------------------------------*/
 
 #footer {
-  background-image: url(/images/vintage.jpg);
+  background-image: url(images/vintage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
